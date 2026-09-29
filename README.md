@@ -22,13 +22,34 @@ No local server to run. The connector is a URL wrapper around Refine's remote MC
 
 ### Grok Bot (chat)
 
-Ask your bot:
+In the bot that should use Refine, send:
 
 ```text
 Add a custom MCP server called refine at https://api.refine.ink/mcp
 ```
 
-Confirm, then complete the OAuth connect card.
+The bot will confirm with a widget. Approve it, then complete the OAuth connect card (Refine account sign-in). Tools show up on the next message.
+
+### Add to another Grok Bot
+
+Yes. Connectors are added per chat: open the **other** bot and run the same install line there. Each bot that needs Refine should get its own add + OAuth once.
+
+Steps:
+
+1. Open the target bot in the Grok Bot sidebar (or Cmd-K).
+2. Paste:
+
+```text
+Add a custom MCP server called refine at https://api.refine.ink/mcp
+```
+
+3. Confirm the add widget.
+4. Finish the OAuth card when it appears.
+5. Optional check: ask that bot `Is the refine connector connected?` or have it list MCP status.
+
+You can also ask this Engineering Lead (or any bot with teammates) to message the target bot and start the add for you — name the bot, e.g. `Add refine to Researchy`. The target bot still needs you to approve its widget and OAuth card; another agent cannot complete those for you.
+
+Do **not** paste API keys into chat. Prefer OAuth. If you must use an API key, create it in Refine Advanced Account Settings and tell the bot to add the server with an `X-API-Key` header — use a secret-request / secure input, never a chat paste.
 
 ### Cursor team marketplace
 
