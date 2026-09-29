@@ -1,0 +1,24 @@
+{
+  "name": "refined",
+  "version": "0.1.0",
+  "description": "Refine.ink for Grok Bot / Cursor — academic proofreading and document review via the hosted Refine MCP.",
+  "author": {
+    "name": "Mark Van de Vyver",
+    "email": "mark@0mm.io",
+    "url": "https://www.0mm.io"
+  },
+  "homepage": "https://www.refine.ink/developers",
+  "repository": "https://github.com/0mm-mark/refined",
+  "license": "MIT",
+  "keywords": [
+    "refine",
+    "refine.ink",
+    "proofreading",
+    "academic",
+    "grok-bot",
+    "mcp",
+    "writing"
+  ],
+  "skills": "skills",
+  "mcpServers": "mcp.json"
+}

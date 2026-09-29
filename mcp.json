@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "refine": {
+      "type": "http",
+      "url": "https://api.refine.ink/mcp",
+      "note": "Hosted Refine.ink MCP (same endpoint as the Claude Connectors Directory listing at https://claude.ai/directory/refine-ink). OAuth by default; API keys also work per https://www.refine.ink/developers."
+    }
+  }
+}

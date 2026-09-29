@@ -1,0 +1,41 @@
+{
+  "name": "refined",
+  "version": "0.1.0",
+  "description": "Refine.ink MCP for Grok Bot — upload papers, run proofreading reviews, and act on comments.",
+  "author": {
+    "name": "Mark Van de Vyver",
+    "url": "https://www.0mm.io"
+  },
+  "homepage": "https://www.refine.ink/developers",
+  "repository": "https://github.com/0mm-mark/refined",
+  "license": "MIT",
+  "keywords": [
+    "refine",
+    "refine.ink",
+    "grok-bot",
+    "mcp",
+    "proofreading"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "interface": {
+    "displayName": "Refine",
+    "shortDescription": "Connect Refine.ink academic proofreading to Grok Bot via hosted MCP.",
+    "longDescription": "Packages Refine's hosted MCP endpoint (https://api.refine.ink/mcp) — the same server listed in the Claude Connectors Directory — plus a skill for uploading documents, running reviews, watching progress, and working through comments. OAuth by default.",
+    "developerName": "0MM",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.refine.ink",
+    "privacyPolicyURL": "https://www.refine.ink/privacy",
+    "defaultPrompt": [
+      "Check my Refine credit balance.",
+      "List my recent Refine proofreading sessions.",
+      "Upload this manuscript to Refine and run a preview review."
+    ],
+    "brandColor": "#1A56DB"
+  }
+}
